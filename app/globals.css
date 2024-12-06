@@ -9,7 +9,7 @@
 
 body {
   /* color: rgb(var(--foreground)); */
-  background: rgb(var(--background));
+  background: #143815;
 }
 
 @layer base {

@@ -7,6 +7,30 @@ const inter = Inter({ subsets: ['latin'] })
 export const metadata: Metadata = {
   title: "Geodaftar | Studio d'Intélligence Géospatiale",
   description: "Geodaftar est un studio d'intélligence géospatiale spécialisé dans l'analyse de données géospatiales pour les entreprises africaines.",
+  icons: {
+    icon: [
+      {
+        url: "/favicon.ico",
+        sizes: "48x48",
+        type: "image/x-icon",
+      },
+      {
+        url: "/Images/LogoIcon-16.png",
+        sizes: "16x16",
+        type: "image/png",
+      },
+      {
+        url: "/Images/LogoIcon-32.png",
+        sizes: "32x32",
+        type: "image/png",
+      },
+      {
+        url: "/Images/LogoIcon-48.png",
+        sizes: "48x48",
+        type: "image/png",
+      },
+    ],
+  },
 };
 
 export default function RootLayout({

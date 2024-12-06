@@ -1,5 +1,4 @@
 import { Button } from '@/components/ui/button'
-import Image from 'next/image'
 
 export function Hero() {
   return (
@@ -11,7 +10,7 @@ export function Hero() {
             Studio d'<span className="text-[#D1F5D2]">Intelligence Géospatiale</span>
           </h1>
           <p className="text-gray-400 text-lg md:text-xl pt-5">
-            Accélérez le développement des entreprises africaines avec nos solutions d’intelligences géospatiales.
+            Accélérez le développement des entreprises africaines avec nos solutions d'intelligences géospatiales.
           </p>
         </div>
 
@@ -27,7 +26,7 @@ export function Hero() {
           <Button
             variant="ghost"
             size="lg"
-            className="text-gray-300 hover:text-white rounded-[30px] px-8 py-6 border border-white"
+            className="text-gray-300 rounded-[30px] px-8 py-6 border border-white hover:bg-[#D1F5D2] hover:text-black"
           >
             Voir la vidéo
           </Button>

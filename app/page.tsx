@@ -1,9 +1,13 @@
 import { Hero } from '@/components/Hero'
+import Testimonial from '@/components/Testimonial'
 
 export default function Home() {
   return (
-    <main>
+    <>
       <Hero />
-    </main>
+      <div className='bg-white px-[100px]'>
+        <Testimonial />
+      </div>
+    </>
   )
 }

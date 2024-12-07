@@ -1,6 +1,6 @@
 import { Button } from '@/components/ui/button'
-import ButtonPrimary from './ButtonPrimary'
-import ButtonSecondary from './ButtonSecondary'
+import ButtonPrimary from './ui/ButtonPrimary'
+import ButtonSecondary from './ui/ButtonSecondary'
 
 export function Hero() {
   return (
@@ -17,7 +17,7 @@ export function Hero() {
         </div>
 
         <div className="flex flex-wrap justify-center gap-4">
-          <ButtonSecondary message='Nos services' /> 
+          <ButtonSecondary message='Nos services' href='services'/> 
           <ButtonPrimary message='Voir la vidéo' /> 
         </div>
       </div>

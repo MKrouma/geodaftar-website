@@ -41,11 +41,10 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en" className="dark">
-      <body className={`${inter.className} bg-[#143815] antialiased`}>
+      <body className={`${inter.className} antialiased flex flex-col`}>
         <Nav />
         <main className="min-h-screen bg-gradient-to-b from-[#143815] to-gray-900 relative overflow-hidden flex flex-col">
-          {/* Gradient overlay */}
-          <div className="absolute inset-0 bg-[radial-gradient(circle_at_center,_var(--tw-gradient-stops))] from-[#143815]/20 via-black/0 to-black pointer-events-none" />
+          {/* <div className="absolute inset-0 bg-[radial-gradient(circle_at_center,_var(--tw-gradient-stops))] from-[#143815]/20 via-black/0 to-black pointer-events-none" /> */}
           {children}
         </main>
       </body>
